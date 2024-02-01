@@ -1,6 +1,6 @@
 const http = require('http');
 const fs = require('fs');
-const PROT = process.env.PORT;
+const PORT = process.env.PORT;
 
 
 const hendle = (FileName, statustCode, req, res) => {
